@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  gather_facts: true
+  become: false
+  tasks:
+    - name: output file to check branch / tag  status
+      debug: var=item
+      with_file: README.md
