@@ -8,4 +8,4 @@
       with_file: README.md
 
     - name: test varible output
-      debug {{ $testvar }}
+      debug: {{ $testvar }}
