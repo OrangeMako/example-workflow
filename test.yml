@@ -5,4 +5,4 @@
   tasks:
     - name: test varible output
       debug:
-        msg: "test varible {{ testvars }} did it work"
+        msg: "test varible {{ extra_vars }} did it work"
