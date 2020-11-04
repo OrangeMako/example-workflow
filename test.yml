@@ -19,5 +19,4 @@
           setfact_test1: "this is a set_fact"
     - name: set_stats facts test
       set_stats:
-        data:
-          setstats_test2: "{{ ansible_facts }}"
+        setstats_test2: "{{ ansible_facts }}"
