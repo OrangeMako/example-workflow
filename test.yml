@@ -13,3 +13,7 @@
       set_stats:
         data:
           setstats_test1: "this is a set_stats"
+    - name: set fact test1
+      set_facts:
+        data:
+          setfacts_test1: "this is a set_facts"
