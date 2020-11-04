@@ -8,3 +8,8 @@
     - name: test varible output
       debug:
         msg: "test varible is it set? {{ test1 }} "
+
+    - name: set stat teststat1
+      set_stats:
+        data:
+          setstats_test1: "this is a set_stats"
