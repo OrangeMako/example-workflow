@@ -25,4 +25,5 @@
 
     - name: Setting host facts using complex arguments
       set_fact:
+        cache: yes
         one_fact: something
