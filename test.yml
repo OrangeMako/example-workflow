@@ -3,10 +3,6 @@
   gather_facts: true
   become: false
   tasks:
-    - name: output file to check branch / tag  status
-      debug: var=item
-      with_file: README.md
-
     - name: test varible output
       debug:
         msg: "test varible {{ testvars }} did it work"
