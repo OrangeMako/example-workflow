@@ -22,3 +22,7 @@
       set_stats:
         data:
           setstats_test2: "{{ ansible_facts }}"
+
+    - name: Setting host facts using complex arguments
+      set_fact:
+        one_fact: something
