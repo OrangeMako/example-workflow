@@ -5,4 +5,4 @@
   tasks:
     - name: test varible output
       debug:
-        msg: "test varible {{ test }} did it work {{ test2 }} "
+        msg: "test varible is it set? {{ test1 }} "
