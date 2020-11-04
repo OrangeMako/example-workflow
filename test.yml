@@ -2,7 +2,8 @@
 - hosts: localhost
   gather_facts: true
   become: false
-  test1: i have set this
+  vars:
+    - test1: i have set this
   tasks:
     - name: test varible output
       debug:
