@@ -1,0 +1,6 @@
+---
+- set_stats:
+  data:
+    test_stat1: "example stat 8.1"
+
+  
